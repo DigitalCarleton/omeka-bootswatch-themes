@@ -98,7 +98,7 @@
 							<?php if (get_theme_option('Display Featured Item') !== '0'): ?>
 								<div class="card mb-4 mt-4">
 									<div class="card-header"><span class="h3"><?php echo __('Featured Item'); ?></span></div>
-									<?php echo random_featured_items(1); ?>
+									<?php echo my_random_featured_items(1); ?>
 								</div>           
 								<!--random_featured_items is linked to items/single.php-->
 
@@ -108,7 +108,7 @@
 
 								<div class="card mb-4">
 									<div class="card-header"><span class="h3"><?php echo __('Featured Collection'); ?></span></div>
-									<?php echo random_featured_collection(); ?>
+									<?php echo my_random_featured_collection(); ?>
 								</div>
 
 								<!--random_featured_collection is linked to collections/single.php-->
