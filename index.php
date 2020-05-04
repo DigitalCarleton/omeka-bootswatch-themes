@@ -79,10 +79,12 @@
 							</div>
 						<?php endif; ?>
 								<?php if ($recentItems && get_theme_option('display_recent_items_as')=='sidebar'):?>
-									<h3 class="card-title"><?php echo __('Recently Added Items'); ?></h3>
+									<div class="container">
+									<h3 class="card-title row"><?php echo __('Recently Added Items'); ?></h3>
 											
 											<?php echo recent_items_bootstrap($recentItems,get_theme_option('display_recent_items_as')); ?>
-											<div class="col-md-12"><p class="view-items-link"><a href="<?php echo html_escape(url('items')); ?>"><?php echo __('View All Items'); ?></a></p></div>
+											<div class="row col-md-12"><p class="view-items-link"><a href="<?php echo html_escape(url('items')); ?>"><?php echo __('View All Items'); ?></a></p></div>
+									</div>
 
 									<?php endif; ?>
 											
