@@ -15,12 +15,15 @@
       else echo bs_header_bg();
       ?>" class="card-img" alt="background image">
       <div class="card-img-overlay d-flex">
-        <div class="mx-auto align-top p-5 mt-5">
+        <div class="mx-auto text-center align-top p-5 mt-5">
+          <?php if ((get_theme_option('header_logo_image') !== '')): ?>
+        <?php echo bs_header_logo(25); ?>
+          <?php endif; ?>
   				<?php if ((get_theme_option('header_image_heading') !== '')): ?>
-  					<h1 class="card-title" style="<?php $color =  get_theme_option('header_image_heading_color');
+  					<h2 class="display-4" style="<?php $color =  get_theme_option('header_image_heading_color');
             if($color !="default"):
               echo "color:", $color;
-            endif; ?>"><?php echo get_theme_option('header_image_heading'); ?></h1>
+            endif; ?>"><?php echo get_theme_option('header_image_heading'); ?></h2>
   				<?php endif; ?>
   				<?php if ((get_theme_option('header_image_text') !== '')): ?>
   					<p class="card-text"><?php echo get_theme_option('header_image_text'); ?></p>

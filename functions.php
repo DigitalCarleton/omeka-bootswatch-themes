@@ -131,12 +131,12 @@ function bs_header_bg()
     }
 }
 
-function bs_header_logo()
+function bs_header_logo($height)
 {
     $headerImage = get_theme_option('Header Logo Image');
     if ($headerImage) {
         $storage = Zend_Registry::get('storage');
         $headerImage = $storage->getUri($storage->getPathByType($headerImage, 'theme_uploads'));
-        return '<img alt="header-logo" class="img-responsive center-block" style="height:30vh;" src="' . $headerImage . '" />';
+        return '<img alt="header-logo" class="img-responsive center-block" style="height:'.$height.'vh;" src="' . $headerImage . '" />';
     }
 }
