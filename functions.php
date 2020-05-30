@@ -137,6 +137,6 @@ function bs_header_logo()
     if ($headerImage) {
         $storage = Zend_Registry::get('storage');
         $headerImage = $storage->getUri($storage->getPathByType($headerImage, 'theme_uploads'));
-        return '<img alt="header-logo" class="img-responsive center-block" src="' . $headerImage . '" />';
+        return '<img alt="header-logo" class="img-responsive center-block h-25" src="' . $headerImage . '" />';
     }
 }
