@@ -13,11 +13,7 @@
         <?php else:$size="display-3";?>
           <?php endif; ?>
           <?php if ((get_theme_option('header_image_heading') !== '')): ?>
-            
-            <h1 class="<?php echo $size;?>" style="<?php $color =  get_theme_option('header_image_heading_color');
-            if($color !="default"):
-              echo "color:", $color;
-            endif; ?>"><?php echo get_theme_option('header_image_heading'); ?></h1>
+            <h1 class="<?php echo $size; echo get_theme_option('header_image_heading_color'); ?>"><?php echo get_theme_option('header_image_heading'); ?></h1>
           <?php endif; ?>
           <?php if ((get_theme_option('header_image_text') !== '')): ?>
             <p class="card-text"><?php echo get_theme_option('header_image_text'); ?></p>

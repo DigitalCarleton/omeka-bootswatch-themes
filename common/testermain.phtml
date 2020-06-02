@@ -20,10 +20,7 @@
         <?php echo bs_header_logo(30); ?>
           <?php endif; ?>
   				<?php if ((get_theme_option('header_image_heading') !== '')): ?>
-  					<h2 class="display-4 card-title" style="<?php $color =  get_theme_option('header_image_heading_color');
-            if($color !="default"):
-              echo "color:", $color;
-            endif; ?>"><?php echo get_theme_option('header_image_heading'); ?></h2>
+  					<h1 class="card-title display-4 <?php echo get_theme_option('header_image_heading_color'); ?>"><?php echo get_theme_option('header_image_heading'); ?></h1>
   				<?php endif; ?>
   				<?php if ((get_theme_option('header_image_text') !== '')): ?>
   					<p class="card-text"><?php echo get_theme_option('header_image_text'); ?></p>
@@ -39,4 +36,3 @@
       </div>
     </div>
   </header>
-  
