@@ -8,10 +8,12 @@ forked from https://github.com/orazionelson/omeka-bootswatch-themes
 by [Alfredo Cosco](http://www.nelsonweb.it)
 
 
-<h3>[Bootstrap](https://getbootstrap.com/)</h3>
+### [Bootstrap](https://getbootstrap.com/)
+
 Bootstrap is a free and open source framework to help you design websites faster and easier. It includes CSS and Javascript based design templates for typography, forms, buttons, tables, navigation, modals, image and other interface components.
 
-<h3>[Bootswatch](https://bootswatch.com/)</h3>
+### [Bootswatch](https://bootswatch.com/)
+
 Bootswatch is a collection of open source themes for Bootstrap.
 
 <h1>Install</h1>
@@ -19,6 +21,7 @@ Bootswatch is a collection of open source themes for Bootstrap.
 2) git clone https://github.com/DigitalCarleton/omeka-bootswatch-themes.git
 
 <h2>Sites</h2>
+
 [Omeka](https://omeka.org/)
 
 [Bootswatch](https://bootswatch.com/)
