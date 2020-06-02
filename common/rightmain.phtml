@@ -8,8 +8,12 @@
     <div class="row m-0">
     <!-- Card with image overlay for header image, heading and text -->
       <div class="my-auto mx-auto text-center col-lg-7 p-5">
+        <?php if ((get_theme_option('header_logo_image') != null)): ?>
+        <?php echo bs_header_logo(20);$size = "display-4";?>
+        <?php else:$size="display-3";?>
+          <?php endif; ?>
           <?php if ((get_theme_option('header_image_heading') !== '')): ?>
-            <h1 class="display-3 <?php echo get_theme_option('header_image_heading_color'); ?>"><?php echo get_theme_option('header_image_heading'); ?></h1>
+            <h1 class="<?php echo $size; echo get_theme_option('header_image_heading_color'); ?>"><?php echo get_theme_option('header_image_heading'); ?></h1>
           <?php endif; ?>
           <?php if ((get_theme_option('header_image_text') !== '')): ?>
             <p class="card-text"><?php echo get_theme_option('header_image_text'); ?></p>

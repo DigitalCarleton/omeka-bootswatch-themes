@@ -7,9 +7,36 @@ function random_featured_exhibit()
     if ($featuredExhibit) {
         $html .= get_view()->partial('exhibit-builder/exhibits/single.php', array('exhibit' => $featuredExhibit));
     } else {
-        $html .= '<p>' . __('You have no featured exhibits.') . '</p>';
+        $html .= '<p class="card-body">' . __('No featured exhibits are available.') . '</p>';
     }
     $html = apply_filters('exhibit_builder_display_random_featured_exhibit', $html);
+    return $html;
+}
+
+function my_random_featured_items($count = 5, $hasImage = null)
+{
+    $items = get_random_featured_items($count, $hasImage);
+    if ($items) {
+        $html = '';
+        foreach ($items as $item) {
+            $html .= get_view()->partial('items/single.php', array('item' => $item));
+            release_object($item);
+        }
+    } else {
+        $html = '<p class="card-body">' . __('No featured items are available.') . '</p>';
+    }
+    return $html;
+}
+
+function my_random_featured_collection()
+{
+    $collection = get_random_featured_collection();
+    if ($collection) {
+        $html = get_view()->partial('collections/single.php', array('collection' => $collection));
+        release_object($collection);
+    } else {
+        $html = '<p class="card-body">' . __('No featured collections are available.') . '</p>';
+    }
     return $html;
 }
 
@@ -104,12 +131,12 @@ function bs_header_bg()
     }
 }
 
-function bs_header_logo()
+function bs_header_logo($height)
 {
     $headerImage = get_theme_option('Header Logo Image');
     if ($headerImage) {
         $storage = Zend_Registry::get('storage');
         $headerImage = $storage->getUri($storage->getPathByType($headerImage, 'theme_uploads'));
-        return '<img alt="header-logo" class="img-responsive center-block" src="' . $headerImage . '" />';
+        return '<img alt="header-logo" class="img-responsive center-block" style="height:'.$height.'vh;" src="' . $headerImage . '" />';
     }
 }

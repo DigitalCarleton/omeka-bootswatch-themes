@@ -79,10 +79,12 @@
 							</div>
 						<?php endif; ?>
 								<?php if ($recentItems && get_theme_option('display_recent_items_as')=='sidebar'):?>
-									<h3 class="card-title"><?php echo __('Recently Added Items'); ?></h3>
+									<div class="container">
+									<h3 class="row"><?php echo __('Recently Added Items'); ?></h3>
 											
 											<?php echo recent_items_bootstrap($recentItems,get_theme_option('display_recent_items_as')); ?>
-											<div class="col-md-12"><p class="view-items-link"><a href="<?php echo html_escape(url('items')); ?>"><?php echo __('View All Items'); ?></a></p></div>
+											<div class="row col-md-12"><p class="view-items-link"><a href="<?php echo html_escape(url('items')); ?>"><?php echo __('View All Items'); ?></a></p></div>
+									</div>
 
 									<?php endif; ?>
 											
@@ -98,7 +100,7 @@
 							<?php if (get_theme_option('Display Featured Item') !== '0'): ?>
 								<div class="card mb-4 mt-4">
 									<div class="card-header"><span class="h3"><?php echo __('Featured Item'); ?></span></div>
-									<?php echo random_featured_items(1); ?>
+									<?php echo my_random_featured_items(1); ?>
 								</div>           
 								<!--random_featured_items is linked to items/single.php-->
 
@@ -108,7 +110,7 @@
 
 								<div class="card mb-4">
 									<div class="card-header"><span class="h3"><?php echo __('Featured Collection'); ?></span></div>
-									<?php echo random_featured_collection(); ?>
+									<?php echo my_random_featured_collection(); ?>
 								</div>
 
 								<!--random_featured_collection is linked to collections/single.php-->
