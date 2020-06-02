@@ -14,6 +14,12 @@ Bootstrap is a free and open source framework to help you design websites faster
 <h3>[Bootswatch](https://bootswatch.com/)</h3>
 Bootswatch is a collection of open source themes for Bootstrap.
 
+<h2>Features</h2>
+
+1. Able to change layout of landing page.
+![layout options](omeka-bootswatch-temes/images/layout.png)
+2. Configure sidebar. There are three options: no sidebar, left sidebar and right bar. This confiduration would not only affect sidebar shown on landing page but also sidebar 
+
 <h1>Install</h1>
 1) Go to your Omeka Themes directory.
 2) git clone https://github.com/DigitalCarleton/omeka-bootswatch-themes.git
