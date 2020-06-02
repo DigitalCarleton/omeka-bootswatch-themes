@@ -20,7 +20,7 @@ Bootswatch is a collection of open source themes for Bootstrap.
 
 1. Able to change layout of landing page. There are four different options. If you want to change layout, go to Configure Theme and choose the layout that you want in Landing Page Layout. 
 
-![layout options](https://github.com/DigitalCarleton/omeka-bootswatch-themes/blob/readme/images/layout.png)
+![layout options](https://github.com/DigitalCarleton/omeka-bootswatch-themes/blob/index-page/images/layout.png)
 
 2. Configure sidebar. There are three options: no sidebar, left sidebar and right bar. This configuration would not only affect sidebar shown on landing page but also sidebar in individual exhibit page.
 3. Configure bootswatch theme. There are a total of 20 options. For a breif overview of what each theme looks like, please go to [Bootswatch](https://bootswatch.com/). For a more detailed preview of the theme, you can go to Configure Theme and in Landing Page Layout, choose Style Preview. 
