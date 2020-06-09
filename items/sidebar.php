@@ -15,7 +15,7 @@
 </div>
 
 <div class="col-md-12">
-    <h4><?php echo link_to($item, 'show', strip_formatting($title)); ?></h4>
+    <h4 class="mt-1"><?php echo link_to($item, 'show', strip_formatting($title)); ?></h4>
 <?php if ($description&&strlen($description) > 30) {
 
     // truncate string
