@@ -4,7 +4,7 @@
     $title = metadata($item, array('Dublin Core', 'Title'));
     $description = metadata($item, array('Dublin Core', 'Description'), array('snippet' => 150));
     ?>
-    <div class="col-md-5">
+    <div class="col-md-12">
     <?php if (metadata($item, 'has files')) {
         echo link_to_item(
             item_image('square_thumbnail', array('class' => 'img-thumbnail'), 0, $item), 
@@ -14,8 +14,8 @@
     ?>
 </div>
 
-<div class="col-md-7 pl-0">
-    <h6><?php echo link_to($item, 'show', strip_formatting($title)); ?></h6>
+<div class="col-md-12">
+    <h4><?php echo link_to($item, 'show', strip_formatting($title)); ?></h4>
 <?php if ($description&&strlen($description) > 30) {
 
     // truncate string
@@ -28,7 +28,7 @@
 }?>
         
     <?php if ($description): ?>
-        <p class="item-description col-md-6 px-0"><?php echo $description; ?></p>
+        <p class="item-description col-md-12 px-0"><?php echo $description; ?></p>
     <?php endif; ?>
 </div>
     
