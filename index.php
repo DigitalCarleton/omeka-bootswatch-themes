@@ -95,7 +95,7 @@
 					<main id="content">
 						<div class="container">
 							<?php if ($homepageText = get_theme_option('Homepage Text')): ?>
-								<div id="homepage-text"><p><?php echo $homepageText; ?></p></div>
+								<div id="homepage-text"><?php echo $homepageText; ?></div>
 							<?php endif; ?>
 							<?php if (get_theme_option('Display Featured Item') !== '0'): ?>
 								<div class="card mb-4 mt-4">
