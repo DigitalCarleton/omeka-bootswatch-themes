@@ -64,7 +64,10 @@
 	?>
 
 	<div class="row m-0">
-		<?php echo $this->partial($main_file);?>
+		<?php if (get_theme_option('display_header')!== '0'): ?>
+            <?php echo $this->partial($main_file);?>
+        <?php endif; ?>
+		
 		<div class="container-fluid m-5">
 			<div class="row">
 				<?php if ($sidebar_pos=='left' || $sidebar_pos=='right'): ?>
