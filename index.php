@@ -98,10 +98,10 @@
 					<main id="content">
 						<div class="container">
 							<?php if ($homepageText = get_theme_option('Homepage Text')): ?>
-								<div id="homepage-text"><?php echo $homepageText; ?></div>
+								<div id="homepage-text" class="mb-2"><?php echo $homepageText; ?></div>
 							<?php endif; ?>
 							<?php if (get_theme_option('Display Featured Item') !== '0'): ?>
-								<div class="card mb-4 mt-4">
+								<div class="card mb-4">
 									<div class="card-header"><span class="h3"><?php echo __('Featured Item'); ?></span></div>
 									<?php echo my_random_featured_items(1); ?>
 								</div>           
