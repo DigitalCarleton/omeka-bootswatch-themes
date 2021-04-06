@@ -7,8 +7,8 @@ by Alfredo Cosco.
 
 <h1>Install</h1>
 <ol>
-  <li>Go to your Omeka Themes directory.</li>
-  <li>git clone https://github.com/DigitalCarleton/omeka-bootswatch-themes.git<li>
+<li>Go to your Omeka Themes directory.</li>
+<li>git clone https://github.com/DigitalCarleton/omeka-bootswatch-themes.git<li>
 </ol>
 
 <h2>Sites</h2>
