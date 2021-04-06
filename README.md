@@ -1,8 +1,8 @@
 Omeka Bootswatch Themes
 =======================
-A porting of Bootswatch skins originally built for Omeka v2.4 and Twitter Bootstrap 3.3.7, upgraded to target Omeka v2.6.1 and Boostrap v4.2.1.
+<a href="https://github.com/thomaspark/bootswatch">Omeka Bootswatch themes</a> is an open-source collection of WordPress themes for Omeka, a free and open-source content management system for online digital collections, originally developed by <a href="https://thomaspark.co/">Thomas Park</a>. This dervative of the original has devised structural and theme changes.
 
-forked from https://github.com/orazionelson/omeka-bootswatch-themes
+The oroginal was forked from https://github.com/orazionelson/omeka-bootswatch-themes
 by [Alfredo Cosco](http://www.nelsonweb.it)
 
 
