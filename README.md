@@ -5,10 +5,19 @@ Omeka Bootswatch Themes
 The oroginal was forked from https://github.com/orazionelson/omeka-bootswatch-themes
 by Alfredo Cosco.
 
+<h2>Theme Configuration</h2>
+<ul>
+  <li><b>Landing Page Layout</b>: Select from 4 Home Page Layouts and an additional prototyping layout, <b>Style Preview</b>.</li>
+  <li><b>Style Sheet</b>: The theme provides 20 style options.</li>
+  <li><b>Logo</b>: Upload an image asset to use as a logo in place of a text site title.</li>
+  <li><b>Sidebar Option</b>: Configure sidebar location and content.</li>
+  <li><b>Footer Content</b>: Add and edit Footer text and links.</li>
+</ul>
+
 <h1>Install</h1>
 <ol>
 <li>Go to your Omeka Themes directory.</li>
-<li>git clone https://github.com/DigitalCarleton/omeka-bootswatch-themes.git<li>
+<li>git clone https://github.com/DigitalCarleton/omeka-bootswatch-themes.git</li>
 </ol>
 
 <h2>Sites</h2>
