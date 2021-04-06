@@ -6,8 +6,10 @@ The oroginal was forked from https://github.com/orazionelson/omeka-bootswatch-th
 by Alfredo Cosco.
 
 <h1>Install</h1>
-1) Go to your Omeka Themes directory.
-2) git clone https://github.com/DigitalCarleton/omeka-bootswatch-themes.git
+<ol>
+  <li>Go to your Omeka Themes directory.</li>
+  <li>git clone https://github.com/DigitalCarleton/omeka-bootswatch-themes.git<li>
+</ol>
 
 <h2>Sites</h2>
 [Omeka](https://omeka.org/)
