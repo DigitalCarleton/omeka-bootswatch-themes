@@ -15,10 +15,20 @@ The original was forked from https://github.com/orazionelson/omeka-bootswatch-th
 </ul>
 
 <h2>Install</h2>
+<b>Installing from the Command Line</b>
 <ol>
   <li>Go to your Omeka Themes directory.</li>
   <li>git clone https://github.com/DigitalCarleton/omeka-bootswatch-themes.git</li>
 </ol>
+<b>Installing from <a href="https://reclaimhosting.com/domain-of-ones-own/">Reclaim Hosting: Domain of One’s Own</a></b>
+<ol>
+ <li>Download ZIP file of code from github.<li>
+    <li>Go to: a href="https://github.com/DigitalCarleton/omeka-bootswatch-themes">https://github.com/DigitalCarleton/omeka-bootswatch-themes</a></li>
+    <li>Select <b>Download Code</b> and selct <b>Download Zip</b> from the drop down selctions</li>
+ <li>From <b>File Manager</b> in <a href="https://reclaimhosting.com/domain-of-ones-own/">Reclaim Hosting</a>, upload the ZIP file to the <b>theme</b> folder.</li>
+ <li>Unzip the ZIP folder</li>
+</ol>
+
 
 <h1>Sites</h1>
 <ol type="A">
