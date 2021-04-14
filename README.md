@@ -39,3 +39,7 @@ The original was forked from https://github.com/orazionelson/omeka-bootswatch-th
   <li>Learn more about <b>Bootstrap</b> here: <a href="https://getbootstrap.com/">https://getbootstrap.com/</a></li>
 </ol>
 
+<h1>Credits</h1>
+<b>Theme modified at Carleton College, located in Northfield Minnesota. By Austin Mason, Shiyue Zhang, Mike Kombate, Seth Romaneko.</b>
+
+
