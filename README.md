@@ -40,6 +40,7 @@ The original was forked from https://github.com/orazionelson/omeka-bootswatch-th
 </ol>
 
 <h1>Credits</h1>
-<b>Theme modified at Carleton College, located in Northfield Minnesota. By Austin Mason, Shiyue Zhang, Mike Kombate, Seth Romaneko.</b>
+<b>Theme modified at Carleton College, located in Northfield Minnesota. By Austin Mason, Shiyue Zhang, Mike Kombate, Seth Romaneko. Avalaible under a<a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3 license</a>
+</b>
 
 
