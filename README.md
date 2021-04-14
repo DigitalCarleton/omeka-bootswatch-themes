@@ -23,10 +23,10 @@ The original was forked from https://github.com/orazionelson/omeka-bootswatch-th
 <h3>Installing from <a href="https://reclaimhosting.com/domain-of-ones-own/">Reclaim Hosting: Domain of One’s Own</a></h3>
 <ol>
  <li>Download ZIP file of code from <a href="https://github.com/DigitalCarleton/omeka-bootswatch-themes">github.</a></li>
-  <ul>
+  <ol>
     <li>Go to: <a href="https://github.com/DigitalCarleton/omeka-bootswatch-themes">https://github.com/DigitalCarleton/omeka-bootswatch-themes</a></li>
     <li>Select <b>Download Code</b> and selct <b>Download Zip</b> from the drop down selctions</li>
-  </ul>
+  </ol>
  <li>From <b>File Manager</b> in <a href="https://reclaimhosting.com/domain-of-ones-own/">Reclaim Hosting</a>, upload the ZIP file to the <b>theme</b> folder.</li>
  <li>Unzip the ZIP folder</li>
 </ol>
