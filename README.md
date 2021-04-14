@@ -15,7 +15,7 @@ The original was forked from https://github.com/orazionelson/omeka-bootswatch-th
 </ul>
 
 <h2>Install</h2>
-<h3>Installing from the Command Line</h3
+<h3>Installing from the Command Line</h3>
 <ol type="1">
   <li>Go to your Omeka Themes directory.</li>
   <li>git clone https://github.com/DigitalCarleton/omeka-bootswatch-themes.git</li>
