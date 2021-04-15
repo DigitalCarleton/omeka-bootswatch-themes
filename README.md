@@ -34,8 +34,8 @@ The original was forked from https://github.com/orazionelson/omeka-bootswatch-th
 
 <h1>Additional Resources</h1>
 <ol type="A">
-  <li>Learn more about <b>Omeka Classic</b>, and its alternative <b>Omeka S</b> here: <a href="https://omeka.org/">https://omeka.org/</a></li>
-  <li>Learn more about <b>Bootswatch</b> and preview the 20 themes here: <a href="https://bootswatch.com/">https://bootswatch.com/</a></li>
+  <li>Learn more about <b>Omeka Classic</b>, and its alternative <b>Omeka S</b>, here: <a href="https://omeka.org/">https://omeka.org/</a></li>
+  <li>Learn more about <b>Bootswatch</b>, and preview the 20 themes, here: <a href="https://bootswatch.com/">https://bootswatch.com/</a></li>
   <li>Learn more about <b>Bootstrap</b> here: <a href="https://getbootstrap.com/">https://getbootstrap.com/</a></li>
 </ol>
 
