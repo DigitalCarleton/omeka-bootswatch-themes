@@ -18,7 +18,7 @@ The original was forked from https://github.com/orazionelson/omeka-bootswatch-th
 <ul>
   <li><b>Display Header Banner</b>: Check or uncheck to display a Header Banner on the Landing Page.</li>
   <li><b>Banner Background Image</b>: Upload a file to display as a part of the Landing Page Header Banner.</li>
-  <li><b>Banner Flow</b>: Select Header Banner layout (2 options)</li>
+  <li><b>Banner Flow</b>: Select Header Banner layout (2 options).</li>
     <ol type="A">
       <li><i>Framed</i>: Centers the banner and page contents by creating buffers, "white space,"in the right and left margins.</li>
       <li><i>Full Page</i>: Eliminates right and left margins, "white spaces," allowing the Header Banner and Landing Page contents to extend across the full screen.</li>
