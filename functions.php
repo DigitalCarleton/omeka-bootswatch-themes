@@ -9,7 +9,7 @@ function random_featured_exhibit()
     } else {
         $html .= '<p>' . __('You have no featured exhibits.') . '</p>';
     }
-    
+    $html = apply_filters('exhibit_builder_display_random_featured_exhibit', $html);
     return $html;
 }
 
