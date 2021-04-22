@@ -19,7 +19,7 @@ The original was forked from https://github.com/orazionelson/omeka-bootswatch-th
   <li><b>Display Header Banner</b></li>
   <li><b>Banner Background Image</b></li>
   <li><b>Banner Flow</b> (2 options):</li>
-    <ol>
+    <ol type="1">
       <li>Framed</li>
       <li>Full Page</li>
     </ol>
