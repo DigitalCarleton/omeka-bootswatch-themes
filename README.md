@@ -6,7 +6,7 @@ The original was forked from https://github.com/orazionelson/omeka-bootswatch-th
 
 <h2>Theme Configuration Options</h2>
 <ul>
-  <li><b>Landing Page Layout</b>: Select from 4 Home Page Layouts and an additional prototyping layout, <b>Style Preview</b> which allows for a preview of the various style sheet theme configurations on the landing/home page.</li>
+  <li><b>Landing Page Layout</b>: Select from 4 Home Page Layouts and an additional prototyping layout, <i>Style Preview</i> which allows for a preview of the various style sheet theme configurations on the landing/home page.</li>
   <li><b>Style Sheet</b>: The theme provides 20 style options. Styles can be previewed here: <a href="https://bootswatch.com/">https://bootswatch.com/</a></li>
   <li><b>Logo</b>: Upload an image asset to use as a logo in place of a text site title.</li>
   <li><b>Sidebar Option</b>: Configure sidebar location and content.</li>
