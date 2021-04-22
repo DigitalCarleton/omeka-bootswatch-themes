@@ -21,9 +21,9 @@ $itemTitle = strip_formatting(metadata('item', array('Dublin Core', 'Title')));
                         <div class="col-12">
                             <?php if ($imagesCount === 1): ?>
                                 <!--  <img class="card-img-top" src="<?php //echo url('/'); ?>files/original/<?php //echo $image->filename; ?>" /> -->
-                                <?php echo file_markup($image,array('imageSize' => 'fullsize','linkToFile' => false,'imgAttributes' => array('class' => 'w-100','data-toggle'=>'#carouselExample', 'data-slide-to'=> strval($imagesCount-1) ))); ?>
+                                <?php echo file_markup($image,array('imageSize' => 'fullsize','linkToFile' => false,'imgAttributes' => array('class' => 'w-10','data-toggle'=>'#carouselExample', 'data-slide-to'=> strval($imagesCount-1) ))); ?>
                             <?php else: ?>
-                                <?php echo file_markup($image,array('imageSize' => 'fullsize','linkToFile' => false,'imgAttributes' => array('class' => 'w-100 d-none','data-toggle'=>'#carouselExample', 'data-slide-to'=> strval($imagesCount-1) ))); ?>
+                                <?php echo file_markup($image,array('imageSize' => 'fullsize','linkToFile' => false,'imgAttributes' => array('class' => 'w-10 d-none','data-toggle'=>'#carouselExample', 'data-slide-to'=> strval($imagesCount-1) ))); ?>
                             <?php endif; ?>
                         </div>
                     <?php $imagesCount++; endforeach; ?>
@@ -169,8 +169,6 @@ $itemTitle = strip_formatting(metadata('item', array('Dublin Core', 'Title')));
 <div id="item-output-formats" class="row element">
     <div class="col-sm-3 text-md-right text-sm-right"><h4><?php echo __('Output Formats'); ?></h4></div>
     <div class="col-sm-9 element-text"><?php echo output_format_list(); ?></div>
-</div>
-</div>
 </div>
 
 <?php fire_plugin_hook('public_items_show', array('view' => $this, 'item' => $item)); ?>

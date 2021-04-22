@@ -114,10 +114,10 @@ function bs_link_logo_to_navbar($text = null, $props = array())
     if (!$text) {
         $text = option('site_title');
     }
-    
+
     if(theme_logo()){$logo= "";}
     else $logo="onlytext";
-    
+
     return '<a  class="navbar-brand '.$logo.'" href="' . html_escape(WEB_ROOT) . '" '. tag_attributes($props) . '>'.theme_logo(). $text . "</a>\n";
 }
 
