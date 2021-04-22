@@ -4,7 +4,7 @@ Bootstrap is the most popular HTML, CSS, and JS framework for the rapid developm
 
 The original was forked from https://github.com/orazionelson/omeka-bootswatch-themes by Alfredo Cosco.
 
-<h2>Additional Theme Configuration Options</h2>
+<h2>Theme Configuration Options</h2>
 <ul>
   <li><b>Landing Page Layout</b>: Select from 4 Home Page Layouts and an additional prototyping layout, <b>Style Preview</b> which allows for a preview of the various style sheet theme configurations on the landing/home page.</li>
   <li><b>Style Sheet</b>: The theme provides 20 style options. Styles can be previewed here: <a href="https://bootswatch.com/">https://bootswatch.com/</a></li>
@@ -12,6 +12,19 @@ The original was forked from https://github.com/orazionelson/omeka-bootswatch-th
   <li><b>Sidebar Option</b>: Configure sidebar location and content.</li>
   <li><b>Footer Content</b>: Add and edit Footer text and links.</li>
   <li><b>Featured Content</b>: Display featured collections, items, and exhibits on the landing/home page.</li>
+</ul>
+
+<h3>Additional Options</h3>
+<ul>
+  <li><b>Display Header Banner</b></li>
+  <li><b>Banner Background Image</b></li>
+  <li><b>Banner Flow</b> (2 options):</li>
+    <ol>
+      <li>Framed</li>
+      <li>Full Page</li>
+    </ol>
+  <li><b>Banner Heading</b> and <b>Banner Text</b></li>
+  <li><b>Homepage Text</b></li>
 </ul>
 
 <h2>Install</h2>
